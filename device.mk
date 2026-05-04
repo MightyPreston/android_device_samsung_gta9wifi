@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-LOCAL_PATH := device/generic/SRPWF07A006
+LOCAL_PATH := device/samsung/gta9wifi
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
