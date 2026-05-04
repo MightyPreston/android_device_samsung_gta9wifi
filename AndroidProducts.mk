@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_SRPWF07A006.mk
+    $(LOCAL_DIR)/omni_gta9wifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_SRPWF07A006-user \
-    omni_SRPWF07A006-userdebug \
-    omni_SRPWF07A006-eng
+    omni_gta9wifi-user \
+    omni_gta9wifi-userdebug \
+    omni_gta9wifi-eng
 
