@@ -10,14 +10,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from SRPWF07A006 device
-$(call inherit-product, device/generic/SRPWF07A006/device.mk)
+# Inherit from gta9wifi device
+$(call inherit-product, device/samsung/gta9wifi/device.mk)
 
-PRODUCT_DEVICE := SRPWF07A006
-PRODUCT_NAME := omni_SRPWF07A006
-PRODUCT_BRAND := generic
-PRODUCT_MODEL := Generic Device
-PRODUCT_MANUFACTURER := generic
+PRODUCT_DEVICE := gta9wifi
+PRODUCT_NAME := omni_gta9wifi
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := Galaxy Tab A9
+PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-generic
 
