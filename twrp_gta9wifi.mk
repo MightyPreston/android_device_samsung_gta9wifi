@@ -14,7 +14,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/samsung/gta9wifi/device.mk)
 
 PRODUCT_DEVICE := gta9wifi
-PRODUCT_NAME := omni_gta9wifi
+PRODUCT_NAME := twrp_gta9wifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy Tab A9
 PRODUCT_MANUFACTURER := samsung
