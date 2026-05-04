@@ -7,5 +7,3 @@ LOCAL_PATH := device/samsung/gta9wifi
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-
-
