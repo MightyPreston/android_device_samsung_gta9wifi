@@ -3,20 +3,21 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-DEVICE_PATH := device/generic/SRPWF07A006
+DEVICE_PATH := device/samsung/gta9wifi
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
-TARGET_ARCH := arm64-v8a
-TARGET_ARCH_VARIANT := generic
+TARGET_ARCH := arm64
+TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 := 
-TARGET_CPU_VARIANT := generic
-TARGET_CPU_VARIANT_RUNTIME := generic
+TARGET_CPU_VARIANT := cortex-a76
+TARGET_CPU_VARIANT_RUNTIME := cortex-a76
+
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := SRPWF07A006
+TARGET_BOOTLOADER_BOARD_NAME := gta9wifi
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -58,8 +59,8 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
-
