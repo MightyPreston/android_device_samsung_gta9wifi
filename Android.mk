@@ -5,7 +5,6 @@
 #
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),SRPWF07A006)
+ifeq ($(TARGET_DEVICE),gta9wifi)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
-
